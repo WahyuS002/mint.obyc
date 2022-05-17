@@ -3,7 +3,7 @@ import React from 'react'
 export default function Navbar() {
     return (
         <div className="flex justify-between">
-            <div>Logo here</div>
+            <div className="text-2xl font-bold text-primary">NOBS</div>
             <div className="hidden md:flex items-center space-x-4">
                 <a
                     href="/"
