@@ -1,0 +1,15 @@
+{
+    "CONTRACT_ADDRESS": "0x11B60D3EC9f505afDDFF68BC8dF6f590e5a1E7EE",
+    "SCAN_LINK": "https://etherscan.io/address/0x11B60D3EC9f505afDDFF68BC8dF6f590e5a1E7EE",
+    "NETWORK": {
+        "NAME": "Ethereum",
+        "SYMBOL": "ETH",
+        "ID": 1
+    },
+    "NFT_NAME": "Kilzuki",
+    "SYMBOL": "KILZUKI",
+    "MAX_SUPPLY": "6666",
+    "GAS_LIMIT": 200000,
+    "MARKETPLACE": "Opensea",
+    "MARKETPLACE_LINK": "https://opensea.io"
+}

@@ -18,14 +18,14 @@ export default function Minting() {
                         <p>Mint Amount</p>
                         <div className="flex items-center space-x-3">
                             <button className="bg-secondary rounded-full p-[0.2rem] text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-[0.8rem] w-[0.8rem]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-[0.8rem] w-[0.8rem]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="5">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M18 12H6" />
                                 </svg>
                             </button>
                             <span>5</span>
                             <button className="bg-secondary rounded-full p-[0.2rem] text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-[0.8rem] w-[0.8rem]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-[0.8rem] w-[0.8rem]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="5">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
                                 </svg>
                             </button>
                         </div>
