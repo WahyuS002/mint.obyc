@@ -6,8 +6,8 @@
         "SYMBOL": "ETH",
         "ID": 1
     },
-    "NFT_NAME": "Kilzuki",
-    "SYMBOL": "KILZUKI",
+    "NFT_NAME": "Not Okay Broken Sea",
+    "SYMBOL": "NOBS",
     "MAX_SUPPLY": "6666",
     "GAS_LIMIT": 285000,
     "MARKETPLACE": "Opensea",

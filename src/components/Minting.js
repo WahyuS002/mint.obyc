@@ -227,7 +227,13 @@ export default function Minting() {
                     </div>
                     <div className="flex justify-between font-semibold text-white">
                         <p>Total Price</p>
-                        <p>{isWalletConnected() && isContractReady() && !isLoading() ? web3.utils.fromWei(web3.utils.toBN(data.cost)) * mintAmount + ' ETH' : '-'}</p>
+                        <p>
+                            {isWalletConnected() && isContractReady() && !isLoading() ? (
+                                <>{!data.isFreeMintOpen ? web3.utils.fromWei(web3.utils.toBN(data.cost)) * mintAmount + ' ETH' : 'Free'}</>
+                            ) : (
+                                '-'
+                            )}
+                        </p>
                     </div>
                 </div>
                 <div className="mx-3 mb-6 space-y-2 text-sm">
