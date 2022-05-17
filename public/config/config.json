@@ -1,10 +1,10 @@
 {
-    "CONTRACT_ADDRESS": "0xfB6dc16B2CbB4986ea713766C7C9239C019b9D66",
-    "SCAN_LINK": "https://etherscan.io/address/0xfB6dc16B2CbB4986ea713766C7C9239C019b9D66",
+    "CONTRACT_ADDRESS": "0x1A9F199C284Dc6e998d3350F70aE624C128C8790",
+    "SCAN_LINK": "https://etherscan.io/address/0x1A9F199C284Dc6e998d3350F70aE624C128C8790",
     "NETWORK": {
-        "NAME": "Rinkeby",
+        "NAME": "Ethereum",
         "SYMBOL": "ETH",
-        "ID": 4
+        "ID": 1
     },
     "NFT_NAME": "Kilzuki",
     "SYMBOL": "KILZUKI",
