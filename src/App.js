@@ -9,13 +9,13 @@ function App() {
     return (
         <div className="h-screen bg-[#FFF9F0] font-inter">
             <ToastContainer />
-            <div className="px-14 py-6">
+            <div className="px-3 md:px-14 py-6">
                 <Navbar />
             </div>
             <div>
                 <Minting />
             </div>
-            <div>
+            <div className="mt-12">
                 <Footer />
             </div>
         </div>

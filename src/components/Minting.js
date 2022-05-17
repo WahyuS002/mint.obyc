@@ -180,7 +180,7 @@ export default function Minting() {
 
     return (
         <div className="flex h-[75vh]">
-            <div className="m-auto w-1/3 bg-secondary px-12 py-8 rounded-xl border-2 border-primary">
+            <div className="mx-3 md:mx-auto my-auto md:w-1/3 bg-secondary px-3 md:px-12 py-8 rounded-xl border-2 border-primary">
                 <div className="flex justify-center">
                     <div className="w-44 h-44 relative mb-5">
                         <img className="rounded-xl border-[3px] border-primary" src={nobsImg} alt="" />
