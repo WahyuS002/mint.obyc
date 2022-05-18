@@ -6,7 +6,7 @@ import Web3 from 'web3'
 
 import { toast } from 'react-toastify'
 
-import obycImg from '../images/obyc.png'
+import obycImg from '../images/obyc.jpg'
 
 const truncate = (input, len) => (input.length > len ? `${input.substring(0, len)}...` : input)
 
