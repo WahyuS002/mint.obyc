@@ -6,7 +6,7 @@ import Web3 from 'web3'
 
 import { toast } from 'react-toastify'
 
-import nobsImg from '../images/nobs.png'
+import obycImg from '../images/obyc.png'
 
 const truncate = (input, len) => (input.length > len ? `${input.substring(0, len)}...` : input)
 
@@ -183,7 +183,7 @@ export default function Minting() {
             <div className="mx-3 md:mx-auto my-auto md:w-1/3 bg-secondary px-3 md:px-12 py-8 rounded-xl border-2 border-primary">
                 <div className="flex justify-center">
                     <div className="w-44 h-44 relative mb-5">
-                        <img className="rounded-xl border-[3px] border-primary" src={nobsImg} alt="" />
+                        <img className="rounded-xl border-[3px] border-primary" src={obycImg} alt="" />
                         <div className="flex justify-center">
                             <span className="bg-primary px-3 py-[0.2rem] rounded-full text-white font-bold text-xs absolute -bottom-2">
                                 {isWalletConnected() && isContractReady() && !isLoading() ? data.totalSupply : 'XXX'} / 7777
@@ -192,7 +192,7 @@ export default function Minting() {
                     </div>
                 </div>
                 {isWalletConnected() && isContractReady() && !isLoading() ? (
-                    <h5 className="text-center text-xl font-semibold text-gray-700 mb-4">Mint Your NOBS</h5>
+                    <h5 className="text-center text-xl font-semibold text-gray-700 mb-4">Mint Your OBYC</h5>
                 ) : (
                     <h5 className="text-center text-xl font-semibold text-gray-700 mb-4">Please connect to {CONFIG.NETWORK.NAME} network.</h5>
                 )}

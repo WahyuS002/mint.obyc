@@ -6,9 +6,9 @@
         "SYMBOL": "ETH",
         "ID": 1
     },
-    "NFT_NAME": "Not Okay Broken Sea",
-    "SYMBOL": "NOBS",
-    "MAX_SUPPLY": "6666",
+    "NFT_NAME": "Okay Bears Yacht Club",
+    "SYMBOL": "OBYC",
+    "MAX_SUPPLY": "7777",
     "GAS_LIMIT": 285000,
     "MARKETPLACE": "Opensea",
     "MARKETPLACE_LINK": "https://opensea.io"

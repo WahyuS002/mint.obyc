@@ -3,10 +3,10 @@ import React from 'react'
 export default function Navbar() {
     return (
         <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:justify-between">
-            <div className="text-2xl font-bold text-primary">Not Okay Broken Sea (NOBS)</div>
+            <div className="text-2xl font-bold text-primary">Okay Bears Yacht Club (OBYC)</div>
             <div className="flex items-center space-x-4">
                 <a
-                    href="https://twitter.com/notokaybrokesea"
+                    href="https://twitter.com/okaybearsyc?s=21&t=vthrrcys4zdrX6TvTV6zMg"
                     target={'_blank'}
                     className="text-primary border p-3 rounded-lg hover:bg-primary hover:border-primary hover:text-white transition-all duration-300 ease-in-out"
                     rel="noreferrer"
@@ -21,7 +21,7 @@ export default function Navbar() {
                     </svg>
                 </a> */}
                 <a
-                    href="https://opensea.io/collection/notokaybrokensea"
+                    href="https://opensea.io/collection/okaybearsyachtclub"
                     target={'_blank'}
                     className="text-primary border p-3 rounded-lg hover:bg-primary hover:border-primary hover:text-white transition-all duration-300 ease-in-out"
                     rel="noreferrer"
